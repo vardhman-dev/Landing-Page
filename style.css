@@ -1,4 +1,4 @@
-/* Fonts and colors */
+/* Fonts and colors and strucure */
 
 body{
     font-family: 'Roboto';
@@ -7,7 +7,7 @@ body{
 }
 
 .first{
-    height: 300px;
+    height: 400px;
     background-color: #1F2937;
 }
 
@@ -35,4 +35,58 @@ body{
     padding: 8px 32px;
     border-radius: 8px;
     border: none;
+}
+
+.first .hero .image{
+    height: 225px;
+    width: 450px;
+    background-color: gray;
+}
+
+.first .hero .image p{
+   font-size: 18px; 
+   color: #E5E7EB;
+}
+
+
+/* flexing and placing things */
+/* body{
+    display: flex;
+    flex-direction: column;
+} */
+
+.first{
+    padding: 0 290px;
+}
+
+.first .header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.first .links{
+    display: flex;
+    gap: 16px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .text .main-text, .hero .text p{
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.hero .text{
+    max-width: 400px;
+}
+
+.first .hero .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
