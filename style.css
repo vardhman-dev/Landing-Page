@@ -1,34 +1,38 @@
+/* Fonts and colors */
+
 body{
+    font-family: 'Roboto';
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
 }
 
-.top{
-    height: 400px;
+.first{
+    height: 300px;
     background-color: #1F2937;
 }
 
-.top .header{
-    display: flex;
-    justify-content: space-around;
-    padding: 16px;
+.hero  h1{
+    font-size: 48px;
+    color: #FAF9F8;
+    font-weight: 900;
 }
 
-.top .header .left {
-    font-size: larger;
-    color: white;
+.first .header .links a, .hero  p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first .header .logo{
+    font-size: 24px;
+    color: #FAF9F8;
+}
+
+.hero button{
+    background-color: #3882F6;
+    font-size: 18px;
     font-weight: 700;
-}
-
-.top .right{
-    display: flex;
-    gap: 16px;
-}
-
-a{
-    color: white;
-    font-size: large;
-    text-decoration: none;
+    color: #FAF9F8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
 }
