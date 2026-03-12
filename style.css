@@ -214,5 +214,16 @@ body{
     border-radius: 8px;
 }
 
+/* footer */
+.footer{
+    height: 76px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer p{
+    color: #FAF9F8;
+}
 
