@@ -90,7 +90,7 @@ body{
 /* Fonts, colors and strucure for the second part */
 
 .second{
-    height: 400px;
+    height: 360px;
     background-color: white;
 }
 
@@ -125,4 +125,41 @@ body{
 
 .second .boxes .unit p{
     max-width: 130px;
+}
+
+/* Fonts, colors and strucure for the third part */
+
+.third{
+    height: 250px;
+    background-color: #E5E7EB;
+}
+
+.third p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.third div{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+/* flexing and placing things for the second part */
+
+.third{
+    padding: 70px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third p{
+    margin-bottom: 0;
+    margin-top: 0;
+    min-width: 780px;
+}
+
+.third div{
+    align-self: flex-end;
 }
