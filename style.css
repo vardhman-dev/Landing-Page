@@ -145,7 +145,7 @@ body{
     font-weight: 900;
 }
 
-/* flexing and placing things for the second part */
+/* flexing and placing things for the third part */
 
 .third{
     padding: 70px 400px;
@@ -163,3 +163,56 @@ body{
 .third div{
     align-self: flex-end;
 }
+
+/* Fonts, colors and strucure for the fourth part */
+
+.fourth{
+    height: 300px;
+}
+
+.fourth div{
+    height: 120px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+/* flexing and placing things for the fourth part */
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .content{
+    width: 932px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fourth .content .left h2{
+    font-size: 20px;
+    color: #FAF9F8;   
+    margin-bottom: 0;
+    margin-top: 32px;
+}
+
+.fourth .content .left p{
+    font-size: 18px; 
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.fourth .content button{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FAF9F8;
+    background-color: #3882F6;
+    padding: 6px 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+
+
