@@ -1,4 +1,4 @@
-/* Fonts and colors and strucure */
+/* Fonts and colors and strucure for the first part */
 
 body{
     font-family: 'Roboto';
@@ -49,11 +49,7 @@ body{
 }
 
 
-/* flexing and placing things */
-/* body{
-    display: flex;
-    flex-direction: column;
-} */
+/* flexing and placing things for first part */
 
 .first{
     padding: 0 290px;
@@ -89,4 +85,44 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Fonts, colors and strucure for the second part */
+
+.second{
+    height: 400px;
+    background-color: white;
+}
+
+.second h1{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second .boxes .unit div{
+    width: 130px;
+    height: 130px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* flexing and placing things for second part */
+
+.second {
+    text-align: center;
+    padding: 0 400px;
+}
+.second h1{
+    margin-bottom: 40px;
+}
+
+.second .boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: none;
+}
+
+.second .boxes .unit p{
+    max-width: 130px;
 }
